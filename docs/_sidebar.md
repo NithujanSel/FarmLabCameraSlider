@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 
 
-* [HOME](./documentatie)
+* [HOME](./documentatie/index)
 
-* [Documentatie Camera slider](./index)
+* [Documentatie Camera slider](./documentatie/index)
 <!-- * * [Versiebeheer](#versiebeheer)
 
 * * [Termen en Afkortingen](#termen-en-afkortingen)
