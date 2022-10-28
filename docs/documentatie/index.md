@@ -24,7 +24,7 @@ width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
 
-<img src="../assets/media/image2.png" style="width:6.26806in;height:2.69514in"
+<img src="/docs/assets/media/image2.png" style="width:6.26806in;height:2.69514in"
 alt="Stand 1 v1" />
 
 Figuur : Eerste prototype profielstand 1
