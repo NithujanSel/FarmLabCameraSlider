@@ -15,7 +15,7 @@
     window.$docsify = {
       name: 'FarmLab',
       loadSidebar: true,
-      repo: 'https://github.com/AP-Project-Analysis-2IT-IOT-1TVT-IOT/Nithujan-Tarun_FarmLab',
+      repo: 'https://github.com/NithujanSel/FarmLabCameraSlider',
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
       },

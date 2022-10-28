@@ -3,7 +3,7 @@
 
 * [HOME](./)
 
-* [Analyse FarmLab](./index1)
+* [Documentatie Camera slider](./index1)
 <!-- * * [Versiebeheer](#versiebeheer)
 
 * * [Termen en Afkortingen](#termen-en-afkortingen)
