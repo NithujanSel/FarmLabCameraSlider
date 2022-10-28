@@ -214,6 +214,8 @@ alt="Afbeelding met tekst, whiteboard Automatisch gegenereerde beschrijving" />
 
 Figuur 10: Tweede prototype sliderplaat v2
 
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e4380715a3f6275f5af?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Sliderplaat v3
 
 De openingen bij de sliderplaat versie 2 zijn langer dan het nodig is.
@@ -224,6 +226,8 @@ sliderplaat wordt er nog een opening voorzien om belt vast te houden.
 alt="Afbeelding met tekst Automatisch gegenereerde beschrijving" />
 
 Figuur 11: Derde prototype sliderplaat v3
+
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e4342e0d105ea0a0625?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Sliderplaat v4
 
@@ -260,6 +264,8 @@ style="width:2.34197in;height:4.16381in" />
 
 Figuur 13: Eerste prototype wielen v1
 
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e439ec17b2efa92f148?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Wielen v2
 
 Bij deze versie wordt de hoek van de wielen 40 graden gehouden waardoor
@@ -270,6 +276,8 @@ versie veel beter.
 style="width:2.34584in;height:4.17068in" />
 
 Figuur 14: Tweede prototype wielen v2
+
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e431b1d6eca1aa3e9a6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Beltholder
 
@@ -289,6 +297,8 @@ style="width:2.49422in;height:4.43449in" />
 
 Figuur 15: eerste prototype beltholder v1
 
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e43c360ca5dfbcf77be?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Beltholder v2
 
 Bij de versie 2 wordt de beltholder in een vorm van een rechthoek
@@ -301,6 +311,8 @@ gingen ze kapot tijdens het inklemmen.
 style="width:2.50908in;height:4.4609in" />
 
 Figuur 16: Tweede prototype beltholder v2
+
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e4329a9872ad8d497eb?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Beltholder v3
 
@@ -317,6 +329,8 @@ Figuur 17: Derde prototype beltholder links v3
 style="width:2.00559in;height:3.56575in" />
 
 Figuur 18: Derde prototype beltholder rechts v3
+
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e4327465fc838b768eb?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Beltholder tester
 
