@@ -332,6 +332,8 @@ Figuur 18: Derde prototype beltholder rechts v3
 
 <iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e4327465fc838b768eb?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e43878fc8073f3354cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Beltholder tester
 
 Om de juiste opening voor de klemmen te krijgen werd er een beltholder
