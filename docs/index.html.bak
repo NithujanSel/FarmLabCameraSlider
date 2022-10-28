@@ -13,7 +13,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'FarmLab',
+      name: 'FarmLab Camera Slider',
       loadSidebar: true,
       repo: 'https://github.com/NithujanSel/FarmLabCameraSlider',
       alias: {
