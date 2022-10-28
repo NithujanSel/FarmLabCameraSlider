@@ -238,6 +238,8 @@ style="width:2.4013in;height:4.26928in" />
 
 Figuur 12: Vierde prototype sliderplaat v4
 
+<iframe src="https://student111942.autodesk360.com/shares/public/SH35dfcQT936092f0e435d68fc45ffeb3f43?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 # Wielen
 
 De wielen zorgen ervoor dat de sliderplaat zo goed mogelijk kan
