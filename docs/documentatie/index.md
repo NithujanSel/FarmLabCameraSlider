@@ -48,7 +48,7 @@ width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
 
-<img src="../assets/media/image3.png" style="width:6.26806in;height:4.02153in"
+<img src="/docs/assets/media/image3.png" style="width:6.26806in;height:4.02153in"
 alt="Stand 1 v2" />
 
 Figuur : Tweede prototype profielstand 1
@@ -74,7 +74,7 @@ width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
 
-<img src="../assets/media/image4.png" style="width:6.26806in;height:4.70069in"
+<img src="/docs/assets/media/image4.png" style="width:6.26806in;height:4.70069in"
 alt="Stand 1 v3" />
 
 Figuur : Derde prototype profielstand 1
@@ -93,12 +93,12 @@ src="https://myap83.autodesk360.com/shares/public/SH35dfcQT936092f0e43f48ecade61
 width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
-<img src="../assets/media/image5.png" style="width:3.53044in;height:2.64959in"
+<img src="/docs/assets/media/image5.png" style="width:3.53044in;height:2.64959in"
 alt="Stand 2 v1" />
 
 Figuur : Eerste prototype profielstand 2
 
-<img src="../assets/media/image6.png" style="width:5.17406in;height:2.72174in"
+<img src="/docs/assets/media/image6.png" style="width:5.17406in;height:2.72174in"
 alt="Stand 2 v1" />
 
 Figuur : Eerste prototype profielstand 2
@@ -129,12 +129,12 @@ width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
 
-<img src="../assets/media/image7.jpeg" style="width:2.84037in;height:2.13044in"
+<img src="/docs/assets/media/image7.jpeg" style="width:2.84037in;height:2.13044in"
 alt="Stand 2 v2" />
 
 Figuur : Tweede prototype profielstand 2
 
-<img src="../assets/media/image8.jpeg" style="width:2.86956in;height:2.15233in"
+<img src="/docs/assets/media/image8.jpeg" style="width:2.86956in;height:2.15233in"
 alt="Stand 2 v2" />
 
 Figuur : Tweede prototype profielstand 2
@@ -169,7 +169,7 @@ width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
 frameborder="0"\>\</iframe\>
 
-<img src="../assets/media/image9.jpeg" style="width:5.27497in;height:3.95652in"
+<img src="/docs/assets/media/image9.jpeg" style="width:5.27497in;height:3.95652in"
 alt="A picture containing indoor Description automatically generated" />
 
 Figuur : Derde prototype profielstand 2
@@ -187,7 +187,7 @@ Het eerste idee was om slider aan de bovenkant van het profiel te laten
 schuiven. Om dit te bekomen zal de vorm van de slider gemaakt worden met
 daarboven een plaat waar de ESP32-cam op kan gemonteerd worden.
 
-<img src="../assets/media/image10.png" style="width:6.3in;height:2.80486in"
+<img src="/docs/assets/media/image10.png" style="width:6.3in;height:2.80486in"
 alt="Slider v1" />
 
 Figuur : Eerste prototype sliderplaat v1
@@ -205,7 +205,7 @@ profiel.
 Op de sliderplaat wordt er ook een lang horizontaal opening voorzien om
 de wielen met de bouten en moeren vast te maken.
 
-<img src="../assets/media/image11.jpeg" style="width:2.47559in;height:4.40018in"
+<img src="/docs/assets/media/image11.jpeg" style="width:2.47559in;height:4.40018in"
 alt="Afbeelding met tekst, whiteboard Automatisch gegenereerde beschrijving" />
 
 Figuur : Tweede prototype sliderplaat v2
@@ -216,7 +216,7 @@ De openingen bij de sliderplaat versie 2 zijn langer dan het nodig is.
 Daarnaast zijn de openingen ook niet symmetrisch. Bij deze versie van de
 sliderplaat wordt er nog een opening voorzien om belt vast te houden.
 
-<img src="../assets/media/image12.jpeg" style="width:2.49715in;height:4.4397in"
+<img src="/docs/assets/media/image12.jpeg" style="width:2.49715in;height:4.4397in"
 alt="Afbeelding met tekst Automatisch gegenereerde beschrijving" />
 
 Figuur : Derde prototype sliderplaat v3
@@ -229,7 +229,7 @@ efficiënt genoeg bewwegt met de stepper motor. Hiervoor wordt er een
 beltholder ontworpen. Deze beltholder wordt ook nog verder in de
 documentatie beschreven.
 
-<img src="../assets/media/image13.jpeg"
+<img src="/docs/assets/media/image13.jpeg"
 style="width:2.4013in;height:4.26928in" />
 
 Figuur : Vierde prototype sliderplaat v4
@@ -251,7 +251,7 @@ van de wielen. Hierdoor was de ene zijde van de wiel niet glad genoeg
 waardoor het wiel niet goed geleid in het profiel. Er was ook een groot
 gat voorzien om een ball bearing erin te stoppen.
 
-<img src="../assets/media/image14.jpeg"
+<img src="/docs/assets/media/image14.jpeg"
 style="width:2.34197in;height:4.16381in" />
 
 Figuur : Eerste prototype wielen v1
@@ -262,7 +262,7 @@ Bij deze versie wordt de hoek van de wielen 40 graden gehouden waardoor
 er geen supports nodig waren bij de 3D print. De wielen gleden bij deze
 versie veel beter.
 
-<img src="../assets/media/image15.jpeg"
+<img src="/docs/assets/media/image15.jpeg"
 style="width:2.34584in;height:4.17068in" />
 
 Figuur : Tweede prototype wielen v2
@@ -280,7 +280,7 @@ Maar dit was niet goed gelukt aangezien de belt recht moet blijven en
 niet zijdelings geplaatst moet worden. Hierdoor moest er een nieuw
 design aangemaakt worden.
 
-<img src="../assets/media/image16.jpeg"
+<img src="/docs/assets/media/image16.jpeg"
 style="width:2.49422in;height:4.43449in" />
 
 Figuur : eerste prototype beltholder v1
@@ -293,7 +293,7 @@ sliderplaat geklemd kan worden. Deze beltholder was gewoon te breed en
 de klemmen waren ook te klein. Omdat de klemmen niet breed genoeg waren
 gingen ze kapot tijdens het inklemmen.
 
-<img src="../assets/media/image17.jpeg"
+<img src="/docs/assets/media/image17.jpeg"
 style="width:2.50908in;height:4.4609in" />
 
 Figuur : Tweede prototype beltholder v2
@@ -304,12 +304,12 @@ Hier werd de vorige versie nog verbeterd met de afmetingen te
 veranderen. Aangezien deze een goede versie is, werd er ook de linkse
 reschts versie van de beltholder gemaakt.
 
-<img src="../assets/media/image18.jpeg"
+<img src="/docs/assets/media/image18.jpeg"
 style="width:2.00513in;height:3.56493in" />
 
 Figuur : Derde prototype beltholder links v3
 
-<img src="../assets/media/image19.jpeg"
+<img src="/docs/assets/media/image19.jpeg"
 style="width:2.00559in;height:3.56575in" />
 
 Figuur : Derde prototype beltholder rechts v3
@@ -326,7 +326,7 @@ De tester had openingen die veel te groot waren en soms veel te smal
 waren waardoor de klemmen van belthoder niet goed vast zaten in de
 tester.
 
-<img src="../assets/media/image20.jpeg"
+<img src="/docs/assets/media/image20.jpeg"
 style="width:2.14208in;height:3.80841in" />
 
 Figuur : Eerste prototype beltholder tester v1
@@ -336,7 +336,7 @@ Figuur : Eerste prototype beltholder tester v1
 Bij deze versie werden de exacte afmetingen genomen van beltholder en
 bij elke nieuwe opening werd de opening 0.2 mm vergroot.
 
-<img src="../assets/media/image21.jpeg"
+<img src="/docs/assets/media/image21.jpeg"
 style="width:2.13931in;height:3.80349in" />
 
 Figuur 20: Tweede prototype beltholder testser v2
@@ -388,17 +388,17 @@ Op dit 3D model wordt de ESP32-CAM bevestigd. Het 3D model is gevonden
 op het internet (Thingiverse.com, z.d.). Hier onder staan de foto’s van
 het model:
 
-<img src="../assets/media/image22.png" style="width:3.93889in;height:3.68394in"
+<img src="/docs/assets/media/image22.png" style="width:3.93889in;height:3.68394in"
 alt="Afbeelding met kist, accessoire Automatisch gegenereerde beschrijving" />
 
 Figuur : Pan geprint 3D model met servo
 
-<img src="../assets/media/image23.png" style="width:3.93889in;height:4.57097in"
+<img src="/docs/assets/media/image23.png" style="width:3.93889in;height:4.57097in"
 alt="Afbeelding met rood Automatisch gegenereerde beschrijving" />
 
 Figuur : Tilt geprint 3D model met servo
 
-<img src="../assets/media/image24.png" style="width:4.04348in;height:3.70479in"
+<img src="/docs/assets/media/image24.png" style="width:4.04348in;height:3.70479in"
 alt="Afbeelding met kantoorartikelen Automatisch gegenereerde beschrijving" />
 
 Figuur : Gemonteerd geprint 3D model
@@ -418,7 +418,7 @@ De interface heeft twee sliders. Eén is voor de pan en de andere is voor
 de tilt. Als de slider wordt verschoven gaat de Node-Red, via MQTT
 communicatie, met de ESP32-CAM communiceren en de servo’s laten bewegen.
 
-<img src="../assets/media/image25.png"
+<img src="/docs/assets/media/image25.png"
 style="width:3.39676in;height:1.95155in" />
 
 Figuur : Interface Pan en Tilt:
@@ -430,7 +430,7 @@ kalibratie knop om de ESP32-CAM te kalibreren. Dit is nodig omdat er bij
 de eerste keer er een foto wordt genomen deze er niet zo goed uitziet.
 Om dit op te lossen moet de camera worden gekalibreerd.
 
-<img src="../assets/media/image26.png"
+<img src="/docs/assets/media/image26.png"
 style="width:3.12618in;height:4.71803in" />
 
 Figuur : Interface van ESP32-CAM.
@@ -440,7 +440,7 @@ server. Later wordt dat omgezet naar de bletchley server. Wanneer er een
 foto wordt getrokken gaat de Node-Red deze foto in een folder opslagen.
 De naam van de foto en de folder is de datum waarop de foto is gemaakt.
 
-<img src="../assets/media/image27.png"
+<img src="/docs/assets/media/image27.png"
 style="width:4.15902in;height:1.72419in" />
 
 Figuur : Foto opslag folder van de interface
@@ -450,7 +450,7 @@ rechts te bewegen. Er is ook de mogelijkheid om snelheid aan te passen
 en de motor stop te zetten. Voorlopig kan de stepper motor niets
 automatisch doen.
 
-<img src="../assets/media/image28.png"
+<img src="/docs/assets/media/image28.png"
 style="width:3.50049in;height:3.04209in" />
 
 Figuur 27: Interface stepper motor
@@ -458,7 +458,7 @@ Figuur 27: Interface stepper motor
 In onderstaande afbeelding is de volledige interface van de webpagina te
 zien.
 
-<img src="../assets/media/image29.png"
+<img src="/docs/assets/media/image29.png"
 style="width:6.77725in;height:2.03257in" />
 
 Figuur : Volledige interface van de webpagina
@@ -469,19 +469,19 @@ Om de ESP32-CAM gemakkelijk te monteren is er een shield gemaakt. In
 onderstaand schema is er een pinout voor de servo’s aanwezig. Er zijn
 ook program pinnen om met ESP32- te communiceren.
 
-<img src="../assets/media/image30.png"
+<img src="/docs/assets/media/image30.png"
 style="width:6.26806in;height:4.29931in" />
 
 Figuur : Elektrische schema van ESP32-CAM shield
 
 # PCB
 
-<img src="../assets/media/image31.png" style="width:3.93778in;height:3.3462in"
+<img src="/docs/assets/media/image31.png" style="width:3.93778in;height:3.3462in"
 alt="Afbeelding met tekst, elektronica Automatisch gegenereerde beschrijving" />
 
 Figuur : PCB ESP32-CAM shield Schema
 
-<img src="../assets/media/image32.png"
+<img src="/docs/assets/media/image32.png"
 style="width:3.93686in;height:3.54792in" />
 
 Figuur : PCB 3D model van ESP32-CAM shield
@@ -494,7 +494,7 @@ Bij versie 1 was de frees machine niet zo goed gekalibreerd waardoor die
 de paden verkeerd ging frezen. Soms was de boor niet hoog genoeg
 opgetild waar door die verkeerd ging frezen.
 
-<img src="../assets/media/image33.png"
+<img src="/docs/assets/media/image33.png"
 style="width:3.41739in;height:2.97391in" />
 
 Figuur 32: ESP32-CAM Shield V1
@@ -504,7 +504,7 @@ Figuur 32: ESP32-CAM Shield V1
 Bij versie 2 waren de paden niet zo goed gefreesd waar door er
 kortsluiting was. De frees machine heeft wel goed gefreesd deze keer.
 
-<img src="../assets/media/image34.png"
+<img src="/docs/assets/media/image34.png"
 style="width:3.40997in;height:3.07826in" />
 
 Figuur 33: ESP32-CAM Shield V2
@@ -514,7 +514,7 @@ Figuur 33: ESP32-CAM Shield V2
 Bij versie 3 was de top en bottom omgewisseld waar door de camera pinnen
 omgekeerd waren.
 
-<img src="../assets/media/image35.png" style="width:3.45996in;height:3.26956in"
+<img src="/docs/assets/media/image35.png" style="width:3.45996in;height:3.26956in"
 alt="Afbeelding met tekst, kist Automatisch gegenereerde beschrijving" />
 
 Figuur 34: ESP32-CAM Shield V3
@@ -529,18 +529,18 @@ is op de Windows machine om de WSL 2 versie als default te zetten.
 en 5 moet worden uitgevoerd. Anders krijgt men volgende error bij het
 opstarten.
 
-<img src="../assets/media/image36.png" style="width:6.26806in;height:2.26667in"
+<img src="/docs/assets/media/image36.png" style="width:6.26806in;height:2.26667in"
 alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Figuur : Error bij opstarten Docker zonder gepaste Linux kernel.
 
-<img src="../assets/media/image37.png" style="width:6.26806in;height:3.20625in"
+<img src="/docs/assets/media/image37.png" style="width:6.26806in;height:3.20625in"
 alt="Graphical user interface, text, application Description automatically generated" />
 
 Figuur : Error bij opstarten Docker zonder activeren juiste Linux kernel
 versie.
 
-<img src="../assets/media/image38.png" style="width:6.26806in;height:3.06111in"
+<img src="/docs/assets/media/image38.png" style="width:6.26806in;height:3.06111in"
 alt="Diagram Description automatically generated" />
 
 Figuur : Diagram over hoe een image in docker wordt gemaakt.
@@ -552,7 +552,7 @@ en dergelijke afzonderlijk moeten worden geïnstalleerd. Docker maakt van
 de code, de packages en alles er rond een image wat dan wordt opgeslagen
 in de docker hub.
 
-<img src="../assets/media/image39.png" style="width:6.26806in;height:3.31458in"
+<img src="/docs/assets/media/image39.png" style="width:6.26806in;height:3.31458in"
 alt="A picture containing text, first-aid kit, vector graphics, screenshot Description automatically generated" />
 
 Figuur : Diagram van hoe een image op verschillende copmuters kan
@@ -566,7 +566,7 @@ het programma zonder problemen runnen.
 
 ## Test 1: Motor driver op klein profiel
 
-<img src="../assets/media/image40.jpeg" style="width:4.34167in;height:3.25833in"
+<img src="/docs/assets/media/image40.jpeg" style="width:4.34167in;height:3.25833in"
 alt="A picture containing text, indoor, cluttered Description automatically generated" />
 
 Figuur : Setup slider met profiel 30cm:
