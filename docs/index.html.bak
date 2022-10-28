@@ -19,7 +19,7 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
       },
-      subMaxLevel: 3,
+      subMaxLevel: 4,
       sidebarDisplayLevel: 1
     }
   </script>
