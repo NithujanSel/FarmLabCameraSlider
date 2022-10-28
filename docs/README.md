@@ -1,4 +1,4 @@
-<img src="/docs/assets/media/image1.png"
+<img src="./assets/media/image1.png"
 style="width:6.45625in;height:3.42569in" />
 
 # Documentatie
