@@ -468,7 +468,7 @@ Bij versie 2 waren de paden niet zo goed gefreesd waar door er
 kortsluiting was. De frees machine heeft wel goed gefreesd deze keer.
 
 <img src="./assets/media/image34.png"
-style="width:2.40997in;height:4.07826in" />
+style="width:2.40997in;height:5.07826in" />
 
 Figuur 33: ESP32-CAM Shield V2
 
@@ -477,7 +477,7 @@ Figuur 33: ESP32-CAM Shield V2
 Bij versie 3 was de top en bottom omgewisseld waar door de camera pinnen
 omgekeerd waren.
 
-<img src="./assets/media/image35.png" style="width:2.45996in;height:4.26956in"
+<img src="./assets/media/image35.png" style="width:3.45996in;height:3.26956in"
 alt="Afbeelding met tekst, kist Automatisch gegenereerde beschrijving" />
 
 Figuur 34: ESP32-CAM Shield V3
