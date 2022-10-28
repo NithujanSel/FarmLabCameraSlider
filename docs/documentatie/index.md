@@ -49,7 +49,7 @@ stand gemaakt waar de pulley in past.
 src="https://myap83.autodesk360.com/shares/public/SH35dfcQT936092f0e43b2dbe0e7d11261af?mode=embed"
 width="640" height="480" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
-frameborder="0"\>\</iframe>
+frameborder="1"\>\</iframe>
 
 <img src="./assets/media/image3.png" style="width:6.26806in;height:4.02153in"
 alt="Stand 1 v2" />

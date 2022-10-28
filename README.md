@@ -9,3 +9,5 @@ style="width:6.45625in;height:3.42569in" />
 ### Student 2: Jesse Denaux
 
 ### Student 3: Tarun Singh
+
+<a href="https://nithujansel.github.io/FarmLabCameraSlider/">Docsify Page</a><br>
