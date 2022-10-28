@@ -662,3 +662,5 @@ https://learn.microsoft.com/en-gb/windows/wsl/install-manual
 *Install Docker Desktop on Windows*. (2022, 28 oktober). Geraadpleegd op
 28 oktober 2022, van
 https://docs.docker.com/desktop/install/windows-install/
+
+Cooke, A. C. (2017). Camera Slider. Geraadpleegd van https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2017/03/diy-camera-slider_0.jpg
