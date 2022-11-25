@@ -1,6 +1,3 @@
-//Stepper Board Test Code
-//Kevin Darrah  2017
-
 #include <ESP32Servo.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -15,7 +12,7 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 String TOPIC;
-String bericht;
+byte bericht;
 
 int stepR = 0;
 int stepL = 0;
@@ -72,8 +69,8 @@ void stepperRotate(float rotation, float rpm) {
     digitalWrite(dirPin, LOW);
     rotation = rotation * -1;
   }
-
-
+  float stepsPerRotation = (360.00 / motorAngle) / stepSize;
+  float totalSteps = rotation * stepsPerRotation;
 
   for (unsigned long i = 0; i < totalSteps; i++) {
     digitalWrite(stepPin, 1);
@@ -131,7 +128,6 @@ void callback(String topic, byte* message, unsigned int length) {
   Serial.print(topic);
   Serial.print(". Message: ");
   Serial.println();
-  bericht = "";
   TOPIC = topic;
   for (int i = 0; i < length; i++) {
     Serial.print((char)message[i]);
@@ -162,33 +158,10 @@ void callback(String topic, byte* message, unsigned int length) {
     motorPos = bericht.toInt();
   }
   if (topic == "Farmlab2/stepper/postPosList") {
-    String k = bericht;
-    for (int i = 0; k[i] != '\0'; i++) {
-      if (k[i] == ',') {
-      }
-      else {
-        getPos[i] = k[i];
-      }
-    }
-    for (byte i = 0; i < 5 ; i++) {
-      Serial.println(getPos[i]);
-    }
-  }
-}
-
-
-
-
-void convert_array(String str) {
-  int str_length = str.length();
-  int i = 0;
-  //traversing the string
-  for (i = 0; str[i] != '\0'; i++) {
-    if (str[i] == ', ') {
-      j++;
-    }
-    else {
-      arr[j] = arr[j] * 10 + (str[i] - 48);
+    byte k = bericht;
+    for (int i = 0; i < length; i++)
+    {
+      Serial.print((char)k[i]);
     }
   }
 }
