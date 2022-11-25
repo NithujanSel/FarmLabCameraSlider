@@ -1,3 +1,6 @@
+//Stepper Board Test Code
+//Kevin Darrah  2017
+
 #include <ESP32Servo.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -5,7 +8,7 @@
 
 const char* ssid = "WwiFi";
 const char* password = "123456789";
-const char* mqtt_server = "10.150.185.203";
+const char* mqtt_server = "172.16.139.2";
 const int mqtt_port = 1884;
 
 WiFiClient espClient;
@@ -17,21 +20,29 @@ String bericht;
 int stepR = 0;
 int stepL = 0;
 int start = 0;
-int speed = 150;
+int speedMotor = 150;
+int motorPos = 0;
 
-const int stepPin = 15;  
+const int stepPin = 15;
 const int dirPin = 14;
 
 const float motorAngle = 0.9;
-const float stepSize = 0.9;  //full=1, half=0.5, quarter=0.25, etc...
+const float stepSize = 0.9;  //vol=1, half=0.5, qua=0.25
 const int potPin = 34;
 int val = 0;
 void stepperRotate(float rotation, float rpm);
+
+//Array manipulatie
+int getPos[15];
+
+
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(stepPin, OUTPUT);
   pinMode(dirPin, OUTPUT);
+  //pinMode(potPin, INPUT);
+  //pinMode(actPin, OUTPUT);  hooked to VCC, so no Arduino control
   Serial.begin(115200);
 
   setup_wifi();
@@ -41,14 +52,14 @@ void setup() {
 }
 
 void loop() {
+  client.loop();
 
-  // put your main code here, to run repeatedly:
   if (start == 1) {
     if (stepL == 1) {
-      stepperRotate(-1, speed);
+      stepperRotate(-1, speedMotor);
     }
     if (stepR == 2) {
-      stepperRotate(1, speed);
+      stepperRotate(1, speedMotor);
     }
   }
 
@@ -62,17 +73,7 @@ void stepperRotate(float rotation, float rpm) {
     rotation = rotation * -1;
   }
 
-  
-  float stepsPerRotation = (360.00 / motorAngle) / stepSize;
 
-  
-  float totalSteps = rotation * stepsPerRotation;
-
-  
-  
-  unsigned long stepPeriodmicroSec = ((60.0000 / (rpm * stepsPerRotation)) * 1E6 / 2.0000) - 5;
-
-  
 
   for (unsigned long i = 0; i < totalSteps; i++) {
     digitalWrite(stepPin, 1);
@@ -113,6 +114,8 @@ void reconnect() {
       client.subscribe("Farmlab2/stepper/rechts");
       client.subscribe("Farmlab2/stepper/start");
       client.subscribe("Farmlab2/stepper/speed");
+      client.subscribe("Farmlab2/stepper/getPos");
+      client.subscribe("Farmlab2/stepper/getPosList");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -121,7 +124,8 @@ void reconnect() {
     }
   }
 }
-
+int j = 0;
+int arr[50] = { 0 };
 void callback(String topic, byte* message, unsigned int length) {
   Serial.print("Message arrived on topic: ");
   Serial.print(topic);
@@ -132,6 +136,7 @@ void callback(String topic, byte* message, unsigned int length) {
   for (int i = 0; i < length; i++) {
     Serial.print((char)message[i]);
     bericht += (char)message[i];
+    Serial.println();
   }
   if (topic == "Farmlab2/stepper/links") {
     stepL = bericht.toInt();
@@ -151,6 +156,39 @@ void callback(String topic, byte* message, unsigned int length) {
     stepR = 0;
   }
   if (topic == "Farmlab2/stepper/speed") {
-    speed = bericht.toInt();
+    speedMotor = bericht.toInt();
+  }
+  if (topic == "Farmlab2/stepper/postPos") {
+    motorPos = bericht.toInt();
+  }
+  if (topic == "Farmlab2/stepper/postPosList") {
+    String k = bericht;
+    for (int i = 0; k[i] != '\0'; i++) {
+      if (k[i] == ',') {
+      }
+      else {
+        getPos[i] = k[i];
+      }
+    }
+    for (byte i = 0; i < 5 ; i++) {
+      Serial.println(getPos[i]);
+    }
+  }
+}
+
+
+
+
+void convert_array(String str) {
+  int str_length = str.length();
+  int i = 0;
+  //traversing the string
+  for (i = 0; str[i] != '\0'; i++) {
+    if (str[i] == ', ') {
+      j++;
+    }
+    else {
+      arr[j] = arr[j] * 10 + (str[i] - 48);
+    }
   }
 }
