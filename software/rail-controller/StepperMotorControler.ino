@@ -38,7 +38,8 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(stepPin, OUTPUT);
   pinMode(dirPin, OUTPUT);
-
+  //pinMode(potPin, INPUT);
+  //pinMode(actPin, OUTPUT);  hooked to VCC, so no Arduino control
   Serial.begin(115200);
 
   setup_wifi();
@@ -70,7 +71,7 @@ void stepperRotate(float rotation, float rpm) {
   }
   float stepsPerRotation = (360.00 / motorAngle) / stepSize;
   float totalSteps = rotation * stepsPerRotation;
-
+  unsigned long stepPeriodmicroSec = ((60.0000 / (rpm * stepsPerRotation)) * 1E6 / 2.0000) - 5;
   for (unsigned long i = 0; i < totalSteps; i++) {
     digitalWrite(stepPin, 1);
     //PORTD |= (1 << 2);
@@ -157,7 +158,7 @@ void callback(String topic, byte* message, unsigned int length) {
     motorPos = bericht.toInt();
   }
   if (topic == "Farmlab2/stepper/postPosList") {
-    byte k = bericht;
+     byte k = bericht.toInt();
     for (int i = 0; i < length; i++)
     {
       Serial.print((char)k[i]);
