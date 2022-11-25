@@ -38,8 +38,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(stepPin, OUTPUT);
   pinMode(dirPin, OUTPUT);
-  //pinMode(potPin, INPUT);
-  //pinMode(actPin, OUTPUT);  hooked to VCC, so no Arduino control
+
   Serial.begin(115200);
 
   setup_wifi();
