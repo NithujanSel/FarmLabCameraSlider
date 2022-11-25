@@ -1,5 +1,371 @@
 [
     {
+        "id": "94b428f4df811e84",
+        "type": "tab",
+        "label": "FARMLAB2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8a55cd6972034a55",
+        "type": "group",
+        "z": "94b428f4df811e84",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "df47b4d6974ee0cf",
+            "7251bdfacbb74937",
+            "76cb6309127ca0e5",
+            "faadb8457200dbcf",
+            "0ec81a67c60a0896",
+            "ecab41a73bfbcaae",
+            "908aba63b2280cf6",
+            "12c4d7d88449eec9",
+            "40e131c29a3d4a09",
+            "7857f191189503ee"
+        ],
+        "x": 584,
+        "y": 19,
+        "w": 542,
+        "h": 462
+    },
+    {
+        "id": "3267d3c6ccaf8c88",
+        "type": "group",
+        "z": "94b428f4df811e84",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5d5f79e7f6099267",
+            "5cc9f57b2e6414d0",
+            "182af07e02ff6658",
+            "c5548075604ac8a1",
+            "504de8b58022d07a",
+            "2cf28219f18e1d5a"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 512,
+        "h": 222
+    },
+    {
+        "id": "a2f4a4dc06cc01c0",
+        "type": "group",
+        "z": "94b428f4df811e84",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "57b0d1cdaf72324d",
+            "afbe5225fe56137f",
+            "e7b206dcb7e6d168",
+            "a4a24923a469edae",
+            "6dee8f86440e7a4b",
+            "ac9a56a7e951ab21",
+            "e49539cda9e20674",
+            "6c37efbc11b87362",
+            "b571e117d7296c8e",
+            "c741ec871c8995de",
+            "5fbc721b8fd0f4a9",
+            "8b754e5aecbefadf",
+            "eef832f331a496cf"
+        ],
+        "x": 34,
+        "y": 619,
+        "w": 1052,
+        "h": 522
+    },
+    {
+        "id": "5d5f79e7f6099267",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "",
+        "topic": "Farmlab2/slider/pan",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 420,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5cc9f57b2e6414d0",
+        "type": "ui_slider",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "",
+        "label": "Tilt slider",
+        "tooltip": "",
+        "group": "a7f49ac8fedc239e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "180",
+        "step": "5",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "182af07e02ff6658"
+            ]
+        ]
+    },
+    {
+        "id": "182af07e02ff6658",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "",
+        "topic": "Farmlab2/slider/tilt",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 430,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "df47b4d6974ee0cf",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "topic": "Farmlab2/stepper/start",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 990,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7251bdfacbb74937",
+        "type": "ui_button",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "group": "1889489575483a1c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "START/STOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 690,
+        "y": 60,
+        "wires": [
+            [
+                "df47b4d6974ee0cf"
+            ]
+        ]
+    },
+    {
+        "id": "76cb6309127ca0e5",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "topic": "Farmlab2/stepper/speed",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 980,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "faadb8457200dbcf",
+        "type": "ui_slider",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "label": "Motor Speed",
+        "tooltip": "",
+        "group": "1889489575483a1c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "50",
+        "max": "250",
+        "step": 1,
+        "x": 680,
+        "y": 140,
+        "wires": [
+            [
+                "76cb6309127ca0e5"
+            ]
+        ]
+    },
+    {
+        "id": "0ec81a67c60a0896",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "topic": "Farmlab2/stepper/links",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 990,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ecab41a73bfbcaae",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "topic": "Farmlab2/stepper/rechts",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 980,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "908aba63b2280cf6",
+        "type": "ui_button",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "group": "1889489575483a1c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rechts",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 670,
+        "y": 280,
+        "wires": [
+            [
+                "ecab41a73bfbcaae"
+            ]
+        ]
+    },
+    {
+        "id": "12c4d7d88449eec9",
+        "type": "ui_button",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "group": "1889489575483a1c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Links",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "0ec81a67c60a0896"
+            ]
+        ]
+    },
+    {
+        "id": "57b0d1cdaf72324d",
+        "type": "mqtt in",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "topic": "PICTURE",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 860,
+        "wires": [
+            [
+                "ac9a56a7e951ab21"
+            ]
+        ]
+    },
+    {
         "id": "afbe5225fe56137f",
         "type": "mqtt out",
         "z": "94b428f4df811e84",
@@ -14,15 +380,497 @@
         "correl": "",
         "expiry": "",
         "broker": "10e78a89.5b4fd5",
-        "x": 730,
-        "y": 420,
+        "x": 690,
+        "y": 660,
         "wires": []
+    },
+    {
+        "id": "e7b206dcb7e6d168",
+        "type": "ui_button",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "group": "eb23a053.4aa63",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Maak foto",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "SMILE",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 660,
+        "wires": [
+            [
+                "afbe5225fe56137f"
+            ]
+        ]
+    },
+    {
+        "id": "a4a24923a469edae",
+        "type": "file",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "fotowrite",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 260,
+        "y": 1020,
+        "wires": [
+            [
+                "e49539cda9e20674"
+            ]
+        ]
+    },
+    {
+        "id": "6dee8f86440e7a4b",
+        "type": "function",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "Image path",
+        "func": "var now = new Date();\n// Create formatted time\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\n\n\n// file path with / at the end\nvar path = \"C:\\\\Users\\\\Nit\\\\Pictures\\\\espCam\\\\\" +yyyy+\"-\"+mm+\"-\"+dd+\"\\\\\"; \n//var dayPath = path + dd + \"\\\\\";\nvar filename = \"foto_\" + yyyy + mm + dd + \"-\" + hh + mm + ss + \".png\"; // file name\nmsg.filename = path + filename;\nnode.warn(msg.filename);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 860,
+        "wires": [
+            [
+                "a4a24923a469edae"
+            ]
+        ]
+    },
+    {
+        "id": "ac9a56a7e951ab21",
+        "type": "image",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": true,
+        "outputs": 1,
+        "x": 320,
+        "y": 860,
+        "wires": [
+            [
+                "6dee8f86440e7a4b"
+            ]
+        ]
+    },
+    {
+        "id": "e49539cda9e20674",
+        "type": "jimp-image",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "Foto",
+        "data": "filename",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "",
+        "parameter1Type": "msg",
+        "parameter2": "",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "parameterCount": 0,
+        "jimpFunction": "none",
+        "selectedJimpFunction": {
+            "name": "none",
+            "fn": "none",
+            "description": "Just loads the image.",
+            "parameters": []
+        },
+        "x": 490,
+        "y": 1020,
+        "wires": [
+            [
+                "6c37efbc11b87362",
+                "b571e117d7296c8e",
+                "5fbc721b8fd0f4a9"
+            ]
+        ]
+    },
+    {
+        "id": "6c37efbc11b87362",
+        "type": "image viewer",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "width": "200",
+        "data": "payload",
+        "dataType": "msg",
+        "x": 830,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b571e117d7296c8e",
+        "type": "debug",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "c741ec871c8995de",
+        "type": "ui_template",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "group": "eb23a053.4aa63",
+        "name": "ui template",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 990,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fbc721b8fd0f4a9",
+        "type": "template",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<img width=\"100%\" height=\"100%\" src=\"{{{payload}}}\">",
+        "output": "str",
+        "x": 820,
+        "y": 1000,
+        "wires": [
+            [
+                "c741ec871c8995de"
+            ]
+        ]
+    },
+    {
+        "id": "8b754e5aecbefadf",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "CameraFlash",
+        "topic": "FLASH",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 680,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "eef832f331a496cf",
+        "type": "ui_button",
+        "z": "94b428f4df811e84",
+        "g": "a2f4a4dc06cc01c0",
+        "name": "",
+        "group": "eb23a053.4aa63",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Camera Flash",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "FLASHFOTO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 720,
+        "wires": [
+            [
+                "8b754e5aecbefadf"
+            ]
+        ]
+    },
+    {
+        "id": "40e131c29a3d4a09",
+        "type": "ui_text_input",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "",
+        "label": "StepPos",
+        "tooltip": "",
+        "group": "1889489575483a1c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 680,
+        "y": 440,
+        "wires": [
+            [
+                "7857f191189503ee"
+            ]
+        ]
+    },
+    {
+        "id": "7857f191189503ee",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "8a55cd6972034a55",
+        "name": "sendPosLijst",
+        "topic": "Farmlab2/stepper/postPosList",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 990,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "145ec2eb1c3fc754",
+        "type": "ui_slider",
+        "z": "94b428f4df811e84",
+        "name": "",
+        "label": "Motor Pos",
+        "tooltip": "",
+        "group": "1889489575483a1c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "50",
+        "max": "250",
+        "step": 1,
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "f60481bce168c0a6"
+            ]
+        ]
+    },
+    {
+        "id": "f60481bce168c0a6",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "name": "sendPos",
+        "topic": "Farmlab2/stepper/postPos",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 920,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c5548075604ac8a1",
+        "type": "ui_slider",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "",
+        "label": "Pan slider",
+        "tooltip": "",
+        "group": "a7f49ac8fedc239e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "0",
+        "max": "180",
+        "step": 1,
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "5d5f79e7f6099267"
+            ]
+        ]
+    },
+    {
+        "id": "2cf28219f18e1d5a",
+        "type": "mqtt out",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "CameraFlash",
+        "topic": "FLASH",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 420,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "504de8b58022d07a",
+        "type": "ui_text_input",
+        "z": "94b428f4df811e84",
+        "g": "3267d3c6ccaf8c88",
+        "name": "",
+        "label": "Pan en Tilt Pos",
+        "tooltip": "{pan0,tilt0},{pan1,tilt1},..",
+        "group": "a7f49ac8fedc239e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "2cf28219f18e1d5a"
+            ]
+        ]
+    },
+    {
+        "id": "c8dc3fe4ef365a28",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "576b701331e51c9e",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f80785b00217ad4",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "2ffe25b059b72dd9",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 4,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7bff089344367ec3",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 5,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "0760234b5376fcec",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 6,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7560dc4dc27d9ae9",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 7,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "2ffe84d1b7ea0c7b",
+        "type": "ui_spacer",
+        "z": "94b428f4df811e84",
+        "name": "spacer",
+        "group": "eb23a053.4aa63",
+        "order": 8,
+        "width": 12,
+        "height": 1
     },
     {
         "id": "10e78a89.5b4fd5",
         "type": "mqtt-broker",
         "name": "FarmLab2",
-        "broker": "10.150.185.203",
+        "broker": "172.16.139.2",
         "port": "1884",
         "clientid": "",
         "autoConnect": true,
@@ -44,5 +892,43 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
+    },
+    {
+        "id": "a7f49ac8fedc239e",
+        "type": "ui_group",
+        "name": "Pan & Tilt",
+        "tab": "28dfd59636dd2eb0",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "1889489575483a1c",
+        "type": "ui_group",
+        "name": "Stepper Motor Besturen",
+        "tab": "28dfd59636dd2eb0",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "eb23a053.4aa63",
+        "type": "ui_group",
+        "name": "Foto Maken",
+        "tab": "28dfd59636dd2eb0",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "28dfd59636dd2eb0",
+        "type": "ui_tab",
+        "name": "Farmlab 2 Camerslider",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     }
 ]
